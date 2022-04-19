@@ -53,7 +53,7 @@ finalise_plot <- function(plot_name,
                           save_filepath=file.path(Sys.getenv("TMPDIR"), "tmp-nc.png"),
                           width_pixels=640,
                           height_pixels=450,
-                          logo_image_path = file.path("data", package = 'WEcRplot'), "placeholder.png") {
+                          logo_image_path = file.path(("data"), "placeholder.png")) {
 
   footer <- create_footer(source_name, logo_image_path)
 

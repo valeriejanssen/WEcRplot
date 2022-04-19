@@ -12,15 +12,15 @@
 setwd("C:/Users/janss208/OneDrive - WageningenUR/janss208/WEcRplot/WEcRplot")
 
 # Git libary
-#library(usethis)
+library(usethis)
 #usethis::git_sitrep()
 #usethis::create_github_token()
 #install.packages("gitcreds")
 #library(gitcreds)
 #gitcreds::gitcreds_set()
 #gitcreds::gitcreds_get()
-#usethis::use_git()
-#usethis::use_github()
+usethis::use_git()
+usethis::use_github()
 
 #package dependecy libraries
 

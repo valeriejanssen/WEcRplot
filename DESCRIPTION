@@ -12,3 +12,5 @@ LazyData: true
 RoxygenNote: 7.1.1
 Imports: 
     extrafont
+URL: https://github.com/valeriejanssen/WEcRplot
+BugReports: https://github.com/valeriejanssen/WEcRplot/issues

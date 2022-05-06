@@ -11,10 +11,6 @@
 
 setwd("C:/Users/janss208/OneDrive - WageningenUR/janss208/WEcRplot/WEcRplot")
 
-# Git libary
-library(usethis)
-usethis::use_git()
-usethis::use_github()
 
 #package dependecy libraries
 
@@ -93,7 +89,7 @@ testgraph1 <- ggplot(data = stacked_df,
 
 testgraph1
 
-finalise_plot(testgraph1, 'Source: Gapminder & BBCplot adapted for WEcR presentation use', 'WEcR_test_graph_1.png', 'WUR_FC_standard.png')
+finalise_plot(testgraph1, 'Source: Gapminder & BBCplot adapted for WEcR presentation use', 'WEcR_test_graph_1.png', 'WUR_RGB_standard.png')
 
 
 
